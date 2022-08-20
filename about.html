@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Graceland Polytechnic Offa</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Login or Registration</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<p></p>
+						<center><h4>Already have an account? you can <a href="login.php">Login here</a></h4></center>
+						<p></p>
+						<div class="row">							
+								<div class="col-sm-10">
+									<a href="my - portal/login.php"><button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										LOGIN
+									</button></a>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1" data-dismiss="modal" aria-hidden="true">
+										Cancel</button>
+								</div>
+						</div>
+					</div>	
+					<div class="tab-pane" id="Registration">
+						<p></p>
+						<center><h4>Go back to homepage or click the <b>APPLY NOW</b> button to apply for your Addmission</h4></center>
+						<p></p>
+						<div class="row">							
+								<div class="col-sm-10">
+									<a href="admission.html"><button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										APPLY NOW
+									</button></a>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1" data-dismiss="modal" aria-hidden="true">
+										Cancel</button>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="about.html" id="dropdown-a" data-toggle="dropdown">About Us </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="about.html">School History </a>
+								<a class="dropdown-item" href="#mission_vision">Mission & Vision</a>
+								<a/ class="dropdown-item" href="#governing_council">Governing Council</a>
+								<a class="dropdown-item" href="#academic_board">Academic Board</a>
+								<a class="dropdown-item" href="#principal_officer">Principal Officer</a>
+								<hr>
+								<a class="dropdown-item" href="#">Past Administrators</a>
+								<hr>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Schools</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="schools.html">School of Applied Science and Technology</a>
+								<a class="dropdown-item" href="schools.html">School of Business and Management Studies</a>
+								<a/ class="dropdown-item" href="schools.html">School of Engineering Technology</a>
+								<a class="dropdown-item" href="schools.html">School of Information and Communication Technolgy </a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Programmes</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="programmes.html">National Diploma</a>
+								<a class="dropdown-item" href="programmes.html">High National Diploma</a>
+								<hr>
+								<a/ class="dropdown-item" href="programmes.html">NCE</a>
+								<hr>
+								<a class="dropdown-item" href="programmes.html">Health Education</a>
+								<a class="dropdown-item" href="programmes.html">Computer-Based Test (CBT)</a>
+								<a class="dropdown-item" href="programmes.html">Certificate Programmes</a>
+								<a class="dropdown-item" href="programmes.html">Continuing Education Programmes</a>
+								<a class="dropdown-item" href="programmes.html">IJMB</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="lecturers.html">Lecturers</a></li>
+						<li class="nav-item"><a class="nav-link" href="admission.php">Admission</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Library</a></li>
+							<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Quick Access</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="nbte.html">NBTE</a>
+								<a class="dropdown-item" href="jamb.html">JAMB</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>LOGIN</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>About Us<span class="m_1" style="font-weight: bold; background-color: lightgreen; opacity: 60%; border-bottom-style: ridge; border-width: 10px; border-color: darkgreen "> <a href="#school_history" ><b>School History</b></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <a href="#mission_vision"><b>Mission & Vision</b> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <a href="#governing_council"><b>Governing Council</b></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#academic_board"><b>Academic Board</b></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="#principal_officer"><b>Principal Officer</b></a></span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div id="school_history" class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>School History</h3>
+                </div>
+            </div><!-- end title -->
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/PresSmall.jpg" alt="" style="height: 400px" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>BREIF HISTORY OF THE SCHOOL</h4>
+                        <p>Graceland Polytechnic, Offa was established in 2013 on the initiative of the President CEO Princess (Dr). Ayodele Olufemi Oyeleke. The Polytechnic is set to provide full time and part time courses of instruction and training in Technology, Applied Science, Commerce, Management, Industrial, Agricultural Production and Distribution, Research in the development and adaptation of technique as the Governing Council may from time to time determine. It is to arrange conferences, seminars and study groups relative to the fields of learning and to perform such other functions as in the opinion of the Governing Council may serve to promote the objectives of the Polytechnic.</p>
+
+                        <p>
+                        The Management of the Polytechnic is governed by the Governing Council, Principal Officers, Academic Board and Directors of Schools/ servicing Divisions.</p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div id="mission_vision" class="col-lg-6 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+						<h3>Mission</h3>
+						<div class="tr-pa">M</div>
+						<p>
+                           <p>
+                                Graceland Polytechnic Offa, has the following Mission Statement
+                            </p>
+                            <ol>
+                                <li>To provide high quality technological and entrepreneurial education to promote self-reliance for development.</li>
+                                <li>Our core values are quality and hard work for both lecturers and students to produce timely results.</li>
+                                <li>We have passion for excellence and expect our students to aim towards performance based reward and recognition system.</li>
+                                <li>Zero tolerance for all forms of indiscipline while encouraging accountability and innovativeness from all concerned.</li>
+                            </ol>
+						</p>
+					</div>
+				</div>
+				<div id="mission_vision" class="col-lg-6 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+						<h3>Vision</h3>
+						<div class="tr-pa">V</div>
+						<p>Our vision is to develop an Institution that inspires passion for learning development of appropriate technical skills for high productivity and economic growth.</p>
+
+					</div>
+				</div>
+				<div id="governing_council" class="col-lg-6 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+						<h3>Governing Council</h3>
+						<div class="tr-pa">G</div>
+						<p>The Polytechnic Governing Council is responsible for the general management of the polytechnic. The President is the Chairman of the Governing Council. The Council is responsible for the control of finances and properties of the Polytechnic and is empowered to enter into contracts on behalf of the Polytechnic. The Council is also responsible for the appointment of all academic and administrative staff, including the Rector. The Council determines policy, but is not involved with the day to day running of the Polytechnic. The Governing Council may consist of the following:</p>
+						<ol class="img-thumbnail">
+							<li>Congregational Representative, </li>
+							<li>Academic Board Representative, </li>
+							<li>Alumni Representative, </li>
+							<li>Rector &amp; the two (2) Deputy Rectors, </li>
+							<li>Registrar serves as the Secretary.</li>
+						</ol>
+					</div>
+				</div>				
+<!-- start Academic Board-->
+<div id="academic_board" class="col-lg-6 col-md-6 col-12">
+	<div class="inner-hmv">
+		<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+		<h3>Academic Board</h3>
+		<div class="tr-pa">A</div>
+			<p style="text-align: justify;">The Academic Board is a statutory body. It has the Rector as its chairman and the Registrar as the secretary. Heads of Academic Departments are members of the Board.</p>
+			<center><b>MEMBERSHIP LIST</b></center>
+	<table cellpadding="5px">
+		<tr>
+			<th>Designation</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Rector</td>
+			<td>Chairman</td>
+		</tr>
+		<tr>
+			<td>Deputy Rector</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>Librarian</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>Deans of School</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>All heads of Academic Department</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>Two Academic Staff Representatives</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>All Chief Lecturers</td>
+			<td>Member</td>
+		</tr>
+		<tr>
+			<td>Registrar</td>
+			<td>Secretary</td>
+		</tr>
+		<tr>
+			<th>IN ATTENDANCE</th>
+		</tr>
+		<tr>
+			<td>All School Officers</td>
+		</tr>
+		<tr>
+			<td>Academic Affairs Officers</td>
+		</tr>
+		<tr>
+			<td>Exam and Record Officers</td>
+		</tr>
+		<tr>
+			<td>Scride Academic Board</td>
+		</tr>
+		<tr>
+			<td>SIWES Coordinator</td>
+		</tr>
+	</table>
+	</div>
+</div>
+<!--- end Academic Board--->
+
+
+			</div>
+		</div>
+	</div>
+<div id="overviews" class="section lb">
+        <div id="principal_officer" class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Principal Officers/Management</h3>
+                </div>
+            </div><!-- end title -->
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/school/rector.jpg" alt="" style="height: 400px" class="img-fluid img-rounded">
+                        <center><h4>MR. LAWAL<br> <i>Acting Rector </i></h4></center>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>RESPONSIBILITIES</h4>
+                        <p>The Rector is the Chief Academic and the Chief Administrative Officer of the Polytechnic. He/she is also the Chief Accounting and Chief Security Officer of the Polytechnic. He/she has statutory powers to exercise general authority over the staff and has responsibility for the discipline in the Polytechnic. He/she is the Chairman of the Academic Board. He/she is responsible to the President/Chairman Governing Council.</p>
+
+                        <p>
+                        The discipline of the students of Graceland Polytechnic is conferred on the Rector and the Polytechnic Governing Council.
+                        </p>
+
+                    </div><!-- end messagebox -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+                <hr>
+
+
+                <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/Registrar.png" alt="" style="height: 400px" class="img-fluid img-rounded">
+                        <center><h4> MR. IBITOYE T. Abiodun<br> <i> Registrar </i></h4></center>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>RESPONSIBILITIES</h4>
+                        <p>The Registrar is responsible to the Rector for the day to day administration of Graceland Polytechnic. He is the Secretary to the Governing Council and all its committees. He is also the Secretary to the Academic Board. He is the custodian of all records and the Polytechnic Seal. The Registrar also services all departments by deploying supporting staff as may be required by the departments.</p>
+
+                    </div><!-- end messagebox -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+                <hr>
+
+
+                <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/ghost_person.png" alt="" style="height: 400px" class="img-fluid img-rounded">
+                        <center><h4> MR. <br> <i> Bursar </i></h4></center>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>RESPONSIBILITIES</h4>
+                        <p>The Bursar is the Chief Financial Officer of Graceland Polytechnic who is responsible and accountable to the Rector. The Bursar is responsible for advising the Rector on the proper financial management of the Polytechnic and current Federal Government instructions and Treasury circulars when the Polytechnic is affected.</p>
+
+                    </div><!-- end messagebox -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+                <hr>
+
+
+               <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/ghost_person.png" alt="" style="height: 400px" class="img-fluid img-rounded">
+                        <center><h4>MR. AYO SALAMI<br> <i> Librarian </i></h4></center>
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>RESPONSIBILITIES</h4>
+                        <p>The Librarian is responsible to the Rector for all issues in connection with the Library.</p>
+
+                    </div><!-- end messagebox -->
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+
+
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+ <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Graceland Polytechnic, Offa was established in 2013 on the initiative of the President CEO Princess (Dr). Ayodele Olufemi Oyeleke. The Polytechnic is set to provide full time and part time courses of instruction and training in Technology, Applied Science, Commerce, Management, Industrial, Agricultural Production and Distribution, Research in the development and adaptation of technique as the Governing Council may from time to time determine. It is to arrange conferences, seminars and study groups relative to the fields of learning and to perform such other functions as in the opinion of the Governing Council may serve to promote the objectives of the Polytechnic.</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="schools.html">Schools</a></li>
+							<li><a href="programmes.html">Programmes</a></li>
+							<li><a href="teachers.html">Teachers</a></li>
+							<li><a href="admission.html">Admission</a></li>
+							<li><a href="library.html">Library</a></li>
+							<li><a href="contact.html">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:info@gracelandpolytechnicoffa.edu.ng">info@gracelandpolytechnicoffa.edu.ng</a></li>
+                            <li><a href="www.gpo.com">www.gpo.com</a></li>
+                            <li>PO Box 16122 </li>
+                            <li>NO. 0 Beside Navy base Offa Kwara state. </li>
+                            <li><a href="dailto: +234-803-8102-114">+234-803-8102-114,</a><a href="dailto: +234-905-2510-621">+234-905-2510-621</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Graceland Polytechnic Offa</a> Design By : <a href="https://html.design/">Project Student</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
