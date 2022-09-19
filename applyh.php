@@ -33,6 +33,7 @@ session_start();
     width: 100%;
     resize: none;
 }
+    
 </style>
 <script>
   var loadFile = function(event) {
