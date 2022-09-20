@@ -54,6 +54,7 @@ session_start();
       URL.revokeObjectURL(output.src) // free memory
     }
   };
+    
 </script>
 <body class="host_version"> 
 
