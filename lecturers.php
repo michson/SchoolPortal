@@ -43,6 +43,7 @@ session_start();
 </head>
 <body class="host_version"> 
 
+	
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
