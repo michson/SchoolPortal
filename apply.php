@@ -9,7 +9,6 @@ session_start();
    
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
- 
      <!-- Site Metas -->
     <title>Graceland Polytechnic Offa</title>  
     <meta name="keywords" content="">
